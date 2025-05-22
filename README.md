@@ -1,8 +1,8 @@
-Caesar Word Encryptor
-Project Description
+##Caesar Word Encryptor
+##Project Description
 This Python-based project provides a utility to encrypt specific paragraphs within a Microsoft Word document (.docx files) using the classic Caesar cipher algorithm. Specifically, it targets and encrypts every second paragraph of the document, leaving the other paragraphs untouched. This tool can be useful for demonstrating basic encryption concepts or for simple, non-secure text obfuscation within documents.
 
-Features
+##Features
 Reads content from a .docx file.
 
 Applies the Caesar cipher encryption to every second paragraph.
@@ -13,14 +13,14 @@ Saves the modified content to a new .docx file, preserving the original document
 
 Handles basic paragraph extraction and insertion.
 
-Prerequisites
+##Prerequisites
 Before you begin, ensure you have the following installed:
 
 Python 3.6 or higher
 
 python-docx library
 
-Installation
+##Installation
 Clone the repository (if applicable) or download the project files:
 
 git clone https://github.com/Bram1956/caesar-cypher.git
@@ -31,7 +31,7 @@ Install the required Python library:
 
 pip install python-docx
 
-Usage
+##Usage
 Prepare your Word document: Ensure your .docx file is in the same directory as the script, or provide the full path to it.
 
 Run the script:
@@ -50,7 +50,7 @@ python encryptor.py my_document.docx encrypted_document.docx 5
 
 This command will encrypt every second paragraph of my_document.docx with a shift of 5 and save the result as encrypted_document.docx.
 
-How It Works
+##How It Works
 The script performs the following steps:
 
 Opens the specified input .docx file using python-docx.
@@ -64,8 +64,7 @@ The Caesar cipher works by shifting each letter in the plaintext by a certain nu
 Creates a new .docx document and copies all paragraphs, applying the encryption to the designated ones.
 
 Saves the new document with the specified output filename.
-
-Contributing
+##Contributing
 Contributions are welcome! If you have suggestions for improvements, new features, or bug fixes, please feel free to:
 
 Fork the repository.
