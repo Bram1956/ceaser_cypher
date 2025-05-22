@@ -36,17 +36,16 @@ Prepare your Word document: Ensure your .docx file is in the same directory as t
 
 Run the script:
 
-python encryptor.py <input_file.docx> <output_file.docx> [shift_value]
+python encryptor.py <input_file.docx>  [shift_value]
 
 <input_file.docx>: The path to the Word document you want to encrypt.
 
-<output_file.docx>: The desired name for the output encrypted Word document.
 
 [shift_value]: (Optional) An integer representing the Caesar cipher shift. If not provided, a default shift (e.g., 3) will be used.
 
 Example:
 
-python encryptor.py my_document.docx encrypted_document.docx 5
+python encryptor.py my_document.docx  5
 
 This command will encrypt every second paragraph of my_document.docx with a shift of 5 and save the result as encrypted_document.docx.
 
