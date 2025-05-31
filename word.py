@@ -2,8 +2,7 @@ ENCODE_EVEN=2
 EVENER=0
 STEP_INCREMENTAL=1
 from docx import Document
-import caser_cipher
-
+from caser_cipher import caeser_text
 def word_encrpyt(user_document,user_shift):
     #creation
     document_source=Document(user_document)

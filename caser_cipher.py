@@ -40,3 +40,5 @@ def caeser_text(message,shift):
 
 # caeser_text(user_message,user_shift_key)
 # caeser_text()
+
+sys.modules[__ceaser_text__]=caeser_text
