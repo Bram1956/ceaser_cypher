@@ -2,7 +2,7 @@
 LAST_CHAR_CODE=ord("Z")
 FIRST_CHAR_CODE=ord("A")
 CHAR_RANGE=LAST_CHAR_CODE-FIRST_CHAR_CODE+1
-
+# import sys
 
 def caeser_text(message,shift):
     #result
@@ -41,4 +41,4 @@ def caeser_text(message,shift):
 # caeser_text(user_message,user_shift_key)
 # caeser_text()
 
-sys.modules[__ceaser_text__]=caeser_text
+# sys.modules[__'ceaser_text'__]=caeser_text

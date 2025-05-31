@@ -15,7 +15,7 @@ def word_encrpyt(user_document,user_shift):
                             document_result.add_paragraph(document_source.paragraphs[paragraph].text)
                             document_result.save('my_python_encrypt.docx')
                         elif paragraph %ENCODE_EVEN !=EVENER:
-                            document_result.add_paragraph(caser_cipher.caeser_text(document_source.paragraphs[paragraph].text,user_shift))
+                            document_result.add_paragraph(caeser_text(document_source.paragraphs[paragraph].text,user_shift))
                             document_result.save('my_python_encrypt.docx')
 
 user_document=input("Document to encyrpt:")
