@@ -23,7 +23,7 @@ python-docx library
 ## Installation
 Clone the repository (if applicable) or download the project files:
 
-git clone https://github.com/Bram1956/caesar-cypher.git
+git clone https://github.com/watersRand/caesar-cypher.git
 cd caesar-cypher
 
 
@@ -36,7 +36,7 @@ Prepare your Word document: Ensure your .docx file is in the same directory as t
 
 Run the script:
 
-python encryptor.py <input_file.docx>  [shift_value]
+python word.py
 
 <input_file.docx>: The path to the Word document you want to encrypt.
 
@@ -45,7 +45,9 @@ python encryptor.py <input_file.docx>  [shift_value]
 
 Example:
 
-python encryptor.py my_document.docx  5
+python word.py 
+Document to Encrypt:my_document.docx
+Shift Index : 5
 
 This command will encrypt every second paragraph of my_document.docx with a shift of 5 and save the result as encrypted_document.docx.
 
